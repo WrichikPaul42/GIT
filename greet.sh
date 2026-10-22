@@ -1,1 +1,1 @@
-'echo "Enter name:"; read name; echo "Hello, $name!"' 
+echo "Enter name:"; read name; echo "Hello, $name!"
