@@ -1,1 +1,1 @@
-echo "Enter name:"; read name; echo "Hello, $name!"
+echo "Enter name:"; read name; if [ -z "$name" ]; then echo "Hello, Guest!"; else echo "Hello, $name!"; fi
